@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB7AF09234D908300006CF6 /* MapViewSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7AF08234D908300006CF6 /* MapViewSelectionController.swift */; };
+		750033527232F0C87A4CAA1B /* Pods_Lunchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824CD3857F41965043A667DB /* Pods_Lunchat.framework */; };
+		FC216A1E232897E4006FBA6E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A1D232897E4006FBA6E /* SignUpViewController.swift */; };
+		FC216A202328D78A006FBA6E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A1F2328D78A006FBA6E /* HomeViewController.swift */; };
+		FC216A222328D909006FBA6E /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A212328D909006FBA6E /* ManageViewController.swift */; };
+		FC216A242328D915006FBA6E /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A232328D915006FBA6E /* HostViewController.swift */; };
+		FC216A262328D928006FBA6E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A252328D928006FBA6E /* MessageViewController.swift */; };
+		FC216A282328D937006FBA6E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC216A272328D937006FBA6E /* ProfileViewController.swift */; };
+		FC4080952328F36000EFF9B4 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4080942328F36000EFF9B4 /* HomePage.storyboard */; };
+		FC4080972328F81600EFF9B4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4080962328F81600EFF9B4 /* Home.storyboard */; };
+		FC4080992328F8D300EFF9B4 /* Manage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4080982328F8D300EFF9B4 /* Manage.storyboard */; };
+		FC40809B2328F94300EFF9B4 /* Host.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40809A2328F94300EFF9B4 /* Host.storyboard */; };
+		FC40809D2328F99100EFF9B4 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40809C2328F99100EFF9B4 /* Message.storyboard */; };
+		FC40809F2328F9EF00EFF9B4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40809E2328F9EF00EFF9B4 /* Profile.storyboard */; };
+		FC50E1BD232BE3C800FDC25F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC50E1BC232BE3C700FDC25F /* GoogleService-Info.plist */; };
+		FC56DE262327D2C10051B708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56DE252327D2C10051B708 /* AppDelegate.swift */; };
+		FC56DE2B2327D2C10051B708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC56DE292327D2C10051B708 /* Main.storyboard */; };
+		FC56DE2D2327D2C40051B708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC56DE2C2327D2C40051B708 /* Assets.xcassets */; };
+		FC56DE302327D2C40051B708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC56DE2E2327D2C40051B708 /* LaunchScreen.storyboard */; };
+		FC56DE382327E7AC0051B708 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56DE372327E7AC0051B708 /* SigninViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640F8F413A805A274919D976 /* Pods-Lunchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lunchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat.release.xcconfig"; sourceTree = "<group>"; };
+		69E5BF3B8706DD4FAEFCAB75 /* Pods-Lunchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lunchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB7AF08234D908300006CF6 /* MapViewSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewSelectionController.swift; sourceTree = "<group>"; };
+		824CD3857F41965043A667DB /* Pods_Lunchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lunchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC216A1D232897E4006FBA6E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FC216A1F2328D78A006FBA6E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC216A212328D909006FBA6E /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		FC216A232328D915006FBA6E /* HostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		FC216A252328D928006FBA6E /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		FC216A272328D937006FBA6E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FC4080942328F36000EFF9B4 /* HomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		FC4080962328F81600EFF9B4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FC4080982328F8D300EFF9B4 /* Manage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manage.storyboard; sourceTree = "<group>"; };
+		FC40809A2328F94300EFF9B4 /* Host.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Host.storyboard; sourceTree = "<group>"; };
+		FC40809C2328F99100EFF9B4 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		FC40809E2328F9EF00EFF9B4 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FC50E1BC232BE3C700FDC25F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC56DE222327D2C10051B708 /* Lunchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC56DE252327D2C10051B708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC56DE2A2327D2C10051B708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC56DE2C2327D2C40051B708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC56DE2F2327D2C40051B708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC56DE312327D2C40051B708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC56DE372327E7AC0051B708 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC56DE1F2327D2C00051B708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750033527232F0C87A4CAA1B /* Pods_Lunchat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F582EDB0DDF2536B5A98D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69E5BF3B8706DD4FAEFCAB75 /* Pods-Lunchat.debug.xcconfig */,
+				640F8F413A805A274919D976 /* Pods-Lunchat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A98B1E6EDBBB268B2279BCC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				824CD3857F41965043A667DB /* Pods_Lunchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC50E1B7232BE1AB00FDC25F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC56DE252327D2C10051B708 /* AppDelegate.swift */,
+				FC216A272328D937006FBA6E /* ProfileViewController.swift */,
+				FC216A252328D928006FBA6E /* MessageViewController.swift */,
+				FC216A232328D915006FBA6E /* HostViewController.swift */,
+				FC216A212328D909006FBA6E /* ManageViewController.swift */,
+				FC216A1F2328D78A006FBA6E /* HomeViewController.swift */,
+				FC216A1D232897E4006FBA6E /* SignUpViewController.swift */,
+				FC56DE372327E7AC0051B708 /* SigninViewController.swift */,
+				6EB7AF08234D908300006CF6 /* MapViewSelectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC50E1B8232BE1AF00FDC25F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC4080942328F36000EFF9B4 /* HomePage.storyboard */,
+				FC40809E2328F9EF00EFF9B4 /* Profile.storyboard */,
+				FC40809C2328F99100EFF9B4 /* Message.storyboard */,
+				FC40809A2328F94300EFF9B4 /* Host.storyboard */,
+				FC4080982328F8D300EFF9B4 /* Manage.storyboard */,
+				FC4080962328F81600EFF9B4 /* Home.storyboard */,
+				FC56DE292327D2C10051B708 /* Main.storyboard */,
+				FC56DE2E2327D2C40051B708 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC50E1B9232BE1B300FDC25F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC56DE192327D2C00051B708 = {
+			isa = PBXGroup;
+			children = (
+				FC56DE242327D2C10051B708 /* Lunchat */,
+				FC56DE232327D2C10051B708 /* Products */,
+				88F582EDB0DDF2536B5A98D4 /* Pods */,
+				A98B1E6EDBBB268B2279BCC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC56DE232327D2C10051B708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC56DE222327D2C10051B708 /* Lunchat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC56DE242327D2C10051B708 /* Lunchat */ = {
+			isa = PBXGroup;
+			children = (
+				FC50E1BC232BE3C700FDC25F /* GoogleService-Info.plist */,
+				FC50E1B9232BE1B300FDC25F /* Model */,
+				FC50E1B8232BE1AF00FDC25F /* View */,
+				FC50E1B7232BE1AB00FDC25F /* Controller */,
+				FC56DE2C2327D2C40051B708 /* Assets.xcassets */,
+				FC56DE312327D2C40051B708 /* Info.plist */,
+			);
+			path = Lunchat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC56DE212327D2C00051B708 /* Lunchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC56DE342327D2C40051B708 /* Build configuration list for PBXNativeTarget "Lunchat" */;
+			buildPhases = (
+				550F3AFD13E6CAF71A744195 /* [CP] Check Pods Manifest.lock */,
+				FC56DE1E2327D2C00051B708 /* Sources */,
+				FC56DE1F2327D2C00051B708 /* Frameworks */,
+				FC56DE202327D2C00051B708 /* Resources */,
+				BD1A569C339309224A841B49 /* [CP] Embed Pods Frameworks */,
+				316C38FBC655389EDA0EC995 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lunchat;
+			productName = Lunchat;
+			productReference = FC56DE222327D2C10051B708 /* Lunchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC56DE1A2327D2C00051B708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MobileTeam;
+				TargetAttributes = {
+					FC56DE212327D2C00051B708 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = FC56DE1D2327D2C00051B708 /* Build configuration list for PBXProject "Lunchat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC56DE192327D2C00051B708;
+			productRefGroup = FC56DE232327D2C10051B708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC56DE212327D2C00051B708 /* Lunchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC56DE202327D2C00051B708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4080952328F36000EFF9B4 /* HomePage.storyboard in Resources */,
+				FC4080972328F81600EFF9B4 /* Home.storyboard in Resources */,
+				FC56DE302327D2C40051B708 /* LaunchScreen.storyboard in Resources */,
+				FC56DE2D2327D2C40051B708 /* Assets.xcassets in Resources */,
+				FC56DE2B2327D2C10051B708 /* Main.storyboard in Resources */,
+				FC40809B2328F94300EFF9B4 /* Host.storyboard in Resources */,
+				FC40809F2328F9EF00EFF9B4 /* Profile.storyboard in Resources */,
+				FC50E1BD232BE3C800FDC25F /* GoogleService-Info.plist in Resources */,
+				FC40809D2328F99100EFF9B4 /* Message.storyboard in Resources */,
+				FC4080992328F8D300EFF9B4 /* Manage.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		316C38FBC655389EDA0EC995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		550F3AFD13E6CAF71A744195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lunchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1A569C339309224A841B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lunchat/Pods-Lunchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC56DE1E2327D2C00051B708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC216A1E232897E4006FBA6E /* SignUpViewController.swift in Sources */,
+				FC56DE382327E7AC0051B708 /* SigninViewController.swift in Sources */,
+				FC216A242328D915006FBA6E /* HostViewController.swift in Sources */,
+				FC56DE262327D2C10051B708 /* AppDelegate.swift in Sources */,
+				6EB7AF09234D908300006CF6 /* MapViewSelectionController.swift in Sources */,
+				FC216A222328D909006FBA6E /* ManageViewController.swift in Sources */,
+				FC216A202328D78A006FBA6E /* HomeViewController.swift in Sources */,
+				FC216A282328D937006FBA6E /* ProfileViewController.swift in Sources */,
+				FC216A262328D928006FBA6E /* MessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC56DE292327D2C10051B708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC56DE2A2327D2C10051B708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC56DE2E2327D2C40051B708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC56DE2F2327D2C40051B708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC56DE322327D2C40051B708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC56DE332327D2C40051B708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC56DE352327D2C40051B708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E5BF3B8706DD4FAEFCAB75 /* Pods-Lunchat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG5YWSYDWQ;
+				INFOPLIST_FILE = Lunchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.JamesCullen.Lunchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC56DE362327D2C40051B708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640F8F413A805A274919D976 /* Pods-Lunchat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG5YWSYDWQ;
+				INFOPLIST_FILE = Lunchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.JamesCullen.Lunchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC56DE1D2327D2C00051B708 /* Build configuration list for PBXProject "Lunchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC56DE322327D2C40051B708 /* Debug */,
+				FC56DE332327D2C40051B708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC56DE342327D2C40051B708 /* Build configuration list for PBXNativeTarget "Lunchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC56DE352327D2C40051B708 /* Debug */,
+				FC56DE362327D2C40051B708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC56DE1A2327D2C00051B708 /* Project object */;
+}
